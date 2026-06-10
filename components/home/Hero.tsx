@@ -5,11 +5,11 @@ import ScrollCanvas from "@/components/ScrollCanvas";
 import HeroScrollText from "@/components/motion/HeroScrollText";
 import { siteConfig } from "@/content/site-config";
 import assetManifest from "@/content/asset-manifest.json";
+import framesManifest from "@/content/frames-manifest.json";
 
 const manifest = assetManifest as any;
 const heroVideo: string | undefined = manifest?.videos?.["scene-1"] || undefined;
-const framePattern: string =
-  manifest?.frames?.["scene-1"]?.pattern || siteConfig.scrollHero.framePattern;
+const framePattern: string = framesManifest.frameUrlTemplate;
 
 const chapters = [
   {
@@ -42,7 +42,7 @@ export default function Hero() {
 
   return (
     <ScrollCanvas
-      frameCount={hero.frameCount}
+      frameCount={framesManifest.frameCount}
       pattern={framePattern}
       scrollDistance={hero.scrollDistance}
       videoSrc={heroVideo}
