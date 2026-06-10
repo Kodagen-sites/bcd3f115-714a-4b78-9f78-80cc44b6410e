@@ -1,0 +1,14 @@
+[
+  { "slot": "section-about",       "keyword": "security operations control room monitors", "orientation": "landscape" },
+  { "slot": "section-showcase-1",  "keyword": "cctv surveillance camera building",          "orientation": "landscape" },
+  { "slot": "section-showcase-2",  "keyword": "security guard control room night",          "orientation": "landscape" },
+  { "slot": "section-showcase-3",  "keyword": "critical infrastructure facility perimeter",  "orientation": "landscape" },
+  { "slot": "section-cta",         "keyword": "dark navy surveillance monitoring screens",   "orientation": "landscape" },
+  { "slot": "og-image",            "keyword": "security operations center monitoring wall",  "orientation": "landscape", "w": 1200, "h": 630 },
+  { "slot": "service-monitoring",     "keyword": "24/7 security monitoring control room",    "orientation": "landscape" },
+  { "slot": "service-threat",         "keyword": "threat detection security analyst screens","orientation": "landscape" },
+  { "slot": "service-access",         "keyword": "access control card reader secure door",   "orientation": "landscape" },
+  { "slot": "service-risk",           "keyword": "security risk assessment site inspection",  "orientation": "landscape" },
+  { "slot": "service-guards",         "keyword": "professional security guard uniformed",     "orientation": "landscape" },
+  { "slot": "service-cctv",           "keyword": "cctv surveillance camera installation",     "orientation": "landscape" }
+]
